@@ -1,5 +1,6 @@
-package ie.britoj.accountmanager.domain.entities;
+package ie.britoj.accountmanager.domain;
 
+import ie.britoj.accountmanager.domain.entities.Account;
 import ie.britoj.accountmanager.domain.exceptions.AccountWithoutFundsException;
 import org.junit.Before;
 import org.junit.Test;

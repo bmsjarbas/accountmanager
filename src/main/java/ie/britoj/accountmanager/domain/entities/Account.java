@@ -1,6 +1,7 @@
 package ie.britoj.accountmanager.domain.entities;
 
 import ie.britoj.accountmanager.domain.exceptions.AccountWithoutFundsException;
+import ie.britoj.accountmanager.domain.valueObjects.Transaction;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

@@ -1,5 +1,6 @@
-package ie.britoj.accountmanager.domain.entities;
+package ie.britoj.accountmanager.domain;
 
+import ie.britoj.accountmanager.domain.entities.Account;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

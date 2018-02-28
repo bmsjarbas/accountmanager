@@ -1,4 +1,4 @@
-package ie.britoj.accountmanager.domain.entities;
+package ie.britoj.accountmanager.domain.valueObjects;
 
 import java.time.LocalDateTime;
 
