@@ -1,9 +1,11 @@
 package ie.britoj.accountmanager.domain.entities;
 
 public class Account {
+    private final String holder;
     private double balance;
 
-    public Account() {
+    public Account(String holder) {
+        this.holder = holder;
     }
 
     public void deposit(double amount) {
@@ -12,5 +14,13 @@ public class Account {
 
     public double getBalance() {
         return this.balance;
+    }
+
+    public String getHolder() {
+        return holder;
+    }
+
+    public void withdraw(double amount) {
+        balance -= amount;
     }
 }
