@@ -1,5 +1,7 @@
 package ie.britoj.accountmanager.domain.entities;
 
+import ie.britoj.accountmanager.domain.exceptions.AccountWithoutFundsException;
+
 public class Account {
     private final String holder;
     private double balance;
@@ -20,7 +22,11 @@ public class Account {
         return holder;
     }
 
-    public void withdraw(double amount) {
-        balance -= amount;
+    public void withdraw(double amount) throws AccountWithoutFundsException {
+        double tempBalance = balance - amount;
+        if(tempBalance < 0){
+            throw new AccountWithoutFundsException();
+        }
+        balance = tempBalance;
     }
 }
