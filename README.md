@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/randomjs/accountmanager.svg?branch=master)](https://travis-ci.org/randomjs/accountmanager)
 # Bank account kata
 Think of your personal bank account experience When in doubt, go for the simplest solution
 
@@ -20,4 +21,4 @@ Think of your personal bank account experience When in doubt, go for the simples
 ##### US 3:
 **In order to** check my operations
 **As a** bank client
-**I want to** see the history (operation, date, amount, balance)  of my operations  
+**I want to** see the history (operation, date, amount, balance)  of my operations
